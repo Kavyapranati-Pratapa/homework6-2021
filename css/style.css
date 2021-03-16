@@ -65,10 +65,10 @@ header{
 
 /*Requirement 7*/
 .gallery{
+  display: flex;
   min-height: 600px;
-  flex-direction: column;
-  align-items: center;
-  flex-flow: column wrap;
+  justify-content: center;
+  flex-wrap: wrap;
    /*Your code here again.*/
 }
 
@@ -82,8 +82,8 @@ header{
 
 /*Requirement 9*/
 #logo{
-   animation-duration: 15s;
    animation-name: logo_grow;
+   animation-duration: 15s;
    animation-iteration-count: 1;
 }
 
@@ -117,6 +117,7 @@ header{
   /*Requirement 11*/
   .package {
     flex-basis: 230px;
+    flex-direction: row;
   } 
 }
 
@@ -126,10 +127,6 @@ header{
     animation: none;
   }
 }
-
-
-
-
 
 @media print { 
   body{
@@ -141,6 +138,8 @@ header{
   }
 
  .nav_links{
+   display:flex;
+   flex-direction: row;
    justify-content: space-between;
  }
 
