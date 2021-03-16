@@ -82,11 +82,7 @@ header{
 
 /*Requirement 9*/
 #logo{
-   animation-name: logo_grow;
-   animation-duration: 15s;
-   -webkit-animation-duration: 15s;
-   animation-iteration-count: 1;
-   -webkit-animation-iteration-count: 1;
+   animation: logo_grow 15s 1;
 }
 
 /*Keyframes for animation*/
